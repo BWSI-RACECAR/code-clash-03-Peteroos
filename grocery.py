@@ -31,12 +31,13 @@ class Solution:
     def my_grocery_list(self,str1,str2):
         # type str1:string
         str1 = ["apples, bananas, bread, sauce, onions"]
-        list(set(str1))
+        
         # type str2: string
         str2 = ["chocolate apples grapes bread"]
-        list(set(str2))
+        
 
-        list(set(str1)-set(str2)+set(str1))
+        c = str1 - str2 + str 1
+        print (c)
         # return: list
 
 
